@@ -1,0 +1,472 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/festo/robotino3/protos/Robotino3.proto"
+
+WorldInfo {
+  basicTimeStep 16
+  FPS 30
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 0.005814771971338413 0.057250169281154555 5.99521111184574
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+}
+Solid {
+  translation 1.11 0.49 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.52 0.49 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.11 0.75 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.24 0.46 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.87 0.68 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.1 0.94 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.65 -1.01 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.11 -1.21 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.65 -0.65 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.7 -0.45 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.07 -0.72 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.08 0.83 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.19 1.12 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.84 1.25 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.83 1.22 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.59 0.35 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.35 -0.2 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.34 -0.67 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.97 -0.41 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.55 -1.13 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.12 -0.9 0.25
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+      }
+      geometry Box {
+        size 0.03 0.03 0.5
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject Box {
+    size 0.03 0.03 0.5
+  }
+  physics Physics {
+  }
+}
+Robotino3 {
+  controller "robot"
+  topSlot [
+    Pose {
+      children [
+        Pose {
+          translation 0.075 0 0
+          rotation 0 1 0 0
+          children [
+            Camera {
+              fieldOfView 2
+              width 128
+              height 128
+            }
+            GPS {
+            }
+            Compass {
+              name "compass(1)"
+            }
+            Lidar {
+              horizontalResolution 256
+              fieldOfView 3.14159
+              numberOfLayers 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
